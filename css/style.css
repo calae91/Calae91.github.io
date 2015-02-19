@@ -32,8 +32,8 @@
     min-width: 20%;
   }
 }
-a { text-decoration: none; }
-a:hover { text-decoration: underline; }
+* { text-decoration: none; }
+*:hover { text-decoration: underline; }
 
 nav li:hover ul {
   background-color: #614;
