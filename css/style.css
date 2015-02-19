@@ -41,4 +41,6 @@ nav li:hover ul {
 section:nth-child(even) {
   background-color: #614;    
 }
-
+nav {
+  font-size: smaller;  
+}
