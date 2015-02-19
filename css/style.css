@@ -21,8 +21,7 @@
 	
 @media (max-width: 600px) {
   nav > ul > li {
-    display: inline-block;
-    padding: 5px;
+    background-color : blue;
   }
   nav > ul ul {
     display: none;
