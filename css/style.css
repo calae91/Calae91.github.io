@@ -39,3 +39,6 @@ nav li:hover ul {
   background-color: #614;
   box-shadow: -1px -1px 2px;
 }
+section:nth-child(even) {
+  background-color: #614;    
+}
