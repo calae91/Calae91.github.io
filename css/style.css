@@ -20,11 +20,11 @@
 	a:hover { text-decoration: underline; }
 	
 @media (max-width: 600px) {
-  nav > ul > li {
-    background-color : blue;
-  }
-  nav > ul ul {
-    display: none;
+  nav {
+    #content { display: flex; }
+  #main { flex: 1 1 auto; }
+  nav { flex: 0 0 auto; #content { display: flex; }
+
   }
 }
 
