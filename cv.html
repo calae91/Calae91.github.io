@@ -3,9 +3,31 @@
 	  <link rel='stylesheet' href='css/style.css' type='text/css' />
   	<meta charset="utf-8">
   	 <title>MON cv</title>
+  	 <style> 
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+    animation: myfirst 5s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    from {background: red;}
+    to {background: yellow;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    from {background: red;}
+    to {background: yellow;}
+}
+</style>
+</head>
   </head>
   <body>
-  <div>
+
 	<nav>  
   <h1>Accueil</h1>
   <ul id = "cvdonne">
@@ -24,7 +46,7 @@
    </ul>
    
    </nav>
-   </div>
+
 <section id="donnée">
 
 	<h2>MOI</h2>
