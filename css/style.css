@@ -48,3 +48,23 @@ nav {
 		display: flex;
 		padding: 100px;
 	}
+	
+	
+	
+	
+ #cvdonne{
+    -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
+    animation: myfirst 5s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myfirst {
+    from {background: red;}
+    to {background: yellow;}
+}
+
+/* Standard syntax */
+@keyframes myfirst {
+    from {background: red;}
+    to {background: yellow;}
+}
