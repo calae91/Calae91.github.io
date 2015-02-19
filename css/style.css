@@ -1,28 +1,58 @@
+TML  CSS   Result
+Edit on 
+body {
+  background-color: #503;
+  color: #bfd;
+}
 
-* {background-color: grey;border-radius:10px}
- 
-  #pres {border : 10px solid #000;border-color: white;border-style: outset;}
-  
-  img {border : 10px solid #000;border-color:pink;border-style: intset;position: relative ;left: 250px;}
-	
-	#La_reference {border : 10px solid #000;border-color: red; }
-	
-	#le_reste {border : 10px solid #000;border-color: red; }
-	
-	#info1,#info2 {border : 5px solid #000;border-color: white; }
-	
-	#cvdonnée {border : 5px solid #000;border-color: white; }
-	
-@media (max-width: 600px) {
-  nav {
-    #content { display: flex; }
-  #main { flex: 1 1 auto; }
-  nav { flex: 0 0 auto; #content { display: flex; }
+nav, section {
+  border: solid thin;
+  border-radius: 6px;
+  padding: 1ex;
+  margin: 2ex;
+}
 
+footer {
+  width: 95%;
+  margin: 2em auto;
+  border-top: solid thin;
+}
+
+header {
+  text-align: center;
+}
+
+#moi {
+  background-color: #836;
+  box-shadow: 0 0 20px;
+}
+
+nav {
+  font-size: smaller;  
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 2px 2ex;
+}
+
+@media (max-width: 400px) {
+  nav > ul > li {
+    display: inline-block;
+    padding: 5px;
+  }
+  nav > ul ul {
+    display: none;
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 400px) {
+  #content { display: flex; }
+  #main { flex: 1 1 auto; }
+  nav { flex: 0 0 auto; }
+}
+
+@media (min-width: 1024px) {
   #main {
     display: flex;
     flex-flow: row wrap;
@@ -32,6 +62,7 @@
     min-width: 20%;
   }
 }
+
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 
@@ -39,6 +70,7 @@ nav li:hover ul {
   background-color: #614;
   box-shadow: -1px -1px 2px;
 }
+
 section:nth-child(even) {
   background-color: #614;    
 }
