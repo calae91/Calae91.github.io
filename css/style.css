@@ -45,6 +45,6 @@ nav {
   font-size: smaller;  
 }
 	#cvdonne,#az,#aze,#azer,#azert,#azerty {
-		display: inline-block;
+		display: flex;
 		padding: 100px;
 	}
