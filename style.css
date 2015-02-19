@@ -1,0 +1,8 @@
+* {background-color: grey;border-radius:10px}
+ 
+  #pres {border : 10px solid #000;border-color: white;border-style: outset;}
+  img {border : 10px solid #000;border-color:pink;border-style: intset;position: relative ;left: 250px;}
+	#La_reference {border : 10px solid #000;border-color: red; }
+	#le_reste {border : 10px solid #000;border-color: red; }
+	#info1,#info2 {border : 5px solid #000;border-color: white; }
+	
