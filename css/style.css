@@ -52,7 +52,7 @@ nav {
 	
 	
 	
- #cvdonne{
+ div {
     -webkit-animation: myfirst 5s; /* Chrome, Safari, Opera */
     animation: myfirst 5s;
 }
