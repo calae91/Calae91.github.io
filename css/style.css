@@ -44,3 +44,7 @@ section:nth-child(even) {
 nav {
   font-size: smaller;  
 }
+	#cvdonne {
+		display: inline-block;
+		padding: 5px;
+	}
