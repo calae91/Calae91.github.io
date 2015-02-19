@@ -3,7 +3,7 @@
  
   #pres {border : 10px solid #000;border-color: white;border-style: outset;}
   
-  #img1 {border : 10px solid #000;border-color:pink;border-style: intset;position: relative ;left: 250px;}
+  img1 {border : 10px solid #000;border-color:pink;border-style: intset;position: relative ;left: 250px;}
 	
 	#La_reference {border : 10px solid #000;border-color: red; }
 	
