@@ -13,12 +13,6 @@
 	
 	#cvdonnée {border : 5px solid #000;border-color: white; }
 	
-    nav li:hover ul {background-color :green;
-	box-shadow : -1px -1px -2px;
-	}
-	
-	a:hover { text-decoration: underline; }
-	
 @media (max-width: 600px) {
   nav {
     #content { display: flex; }
@@ -37,4 +31,11 @@
     flex: 1 1 auto;
     min-width: 20%;
   }
+}
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+nav li:hover ul {
+  background-color: #614;
+  box-shadow: -1px -1px 2px;
 }
