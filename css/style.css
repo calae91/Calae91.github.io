@@ -1,0 +1,41 @@
+
+* {background-color: grey;border-radius:10px}
+ 
+  #pres {border : 10px solid #000;border-color: white;border-style: outset;}
+  
+  img {border : 10px solid #000;border-color:pink;border-style: intset;position: relative ;left: 250px;}
+	
+	#La_reference {border : 10px solid #000;border-color: red; }
+	
+	#le_reste {border : 10px solid #000;border-color: red; }
+	
+	#info1,#info2 {border : 5px solid #000;border-color: white; }
+	
+	#cvdonnée {border : 5px solid #000;border-color: white; }
+	
+    nav li:hover ul {background-color :green;
+	box-shadow : -1px -1px -2px;
+	}
+	
+	a:hover { text-decoration: underline; }
+	
+@media (max-width: 600px) {
+  nav > ul > li {
+    display: inline-block;
+    padding: 5px;
+  }
+  nav > ul ul {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  #main {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  #main section {
+    flex: 1 1 auto;
+    min-width: 20%;
+  }
+}
