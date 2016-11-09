@@ -1,17 +1,9 @@
 
-* {background-color: grey;border-radius:10px}
+* {background-color: blue;border-radius:10px}
  
   #presee {border : 10px solid #000;border-color: white;border-style: outset;}
   
-  .img1 {border : 10px solid #000;border-color:pink;border-style: intset;position: relative ;left: 250px;}
-	
-	#La_reference {border : 10px solid #000;border-color: red; }
-	
-	#le_reste {border : 10px solid #000;border-color: red; }
-	
-	#info1,#info2 {border : 5px solid #000;border-color: white; }
-	
-	#cvdonnée {border : 5px solid #000;border-color: white; }
+
 	
 @media (max-width: 600px) {
   nav {
@@ -45,7 +37,7 @@ section:nth-child(even) {
 nav {
   font-size: smaller;  
 }
-h1 {text-shadow: 5px 5px 5px #FF0000;}
+h1 {text-shadow: 5px 5px 5px yellow;}
 	
  .img2 {width: 10000px;}
 	
