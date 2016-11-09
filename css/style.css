@@ -4,21 +4,14 @@
   #presee {border : 10px solid #000;border-color: white;border-style: outset;}
   
 
-
-nav li:hover ul {
-  background-color: #614;
-  box-shadow: -1px -1px 2px;
-}
-section:nth-child(even) {
-  background-color: #614;    
-}
-nav {
-  font-size: smaller;  
-}
 h1 {text-shadow: 5px 5px 5px 0000000;}
 	
  .img2 {width: 10000px;}
-	
+
+.colonne {
+  width: 49%;
+  display: inline-block;
+}	
 	.colonne h1 { text-align: center; }
 	.colonne a { text-align: center; }
 	.colonne p { text-align: center; }
