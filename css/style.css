@@ -41,4 +41,8 @@ h1 {text-shadow: 5px 5px 5px 0000000;}
 	
  .img2 {width: 10000px;}
 	
-
+	.colonne h1 { text-align: center; }
+	.colonne a { text-align: center; }
+	.colonne p { text-align: center; }
+	
+	
