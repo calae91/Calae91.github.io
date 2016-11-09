@@ -4,28 +4,6 @@
   #presee {border : 10px solid #000;border-color: white;border-style: outset;}
   
 
-	
-@media (max-width: 600px) {
-  nav {
-    #content { display: flex; }
-  #main { flex: 1 1 auto; }
-  nav { flex: 0 0 auto; #content { display: flex; }
-
-  }
-}
-
-@media (min-width: 600px) {
-  #main {
-    display: flex;
-    flex-flow: row wrap;
-  }
-  #main section {
-    flex: 1 1 auto;
-    min-width: 20%;
-  }
-}
-
-a:hover { text-decoration: underline; }
 
 nav li:hover ul {
   background-color: #614;
