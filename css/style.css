@@ -1,5 +1,5 @@
 
-* {background-color: blue;border-radius:10px}
+* {background-color: black;border-radius:10px}
  
   #presee {border : 10px solid #000;border-color: white;border-style: outset;}
   
@@ -24,7 +24,7 @@
     min-width: 20%;
   }
 }
-a { text-decoration: none; }
+
 a:hover { text-decoration: underline; }
 
 nav li:hover ul {
@@ -37,7 +37,7 @@ section:nth-child(even) {
 nav {
   font-size: smaller;  
 }
-h1 {text-shadow: 5px 5px 5px yellow;}
+h1 {text-shadow: 5px 5px 5px 0000000;}
 	
  .img2 {width: 10000px;}
 	
